@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="implementar metodos de automatizaccion una pagina de compras" skipped="0" tests="1" time="55.98" timestamp="2022-08-18 12:30:58"><testcase name="realizar el ingreso y compra de un producto de la pagina"><failure message="The following error occurred: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled</failure><system-err>The following error occurred: Expected enabled element was not enabled&#13;
+com.devcognitio.screenplay.avianca.tasks.LlenarInfoFromExcel.performAs(LlenarInfoFromExcel.java:24)&#13;
+com.devcognitio.screenplay.avianca.features.step_definitions.CompraAutoStepDefinitions.ingrese_al_carro_de_compra_llenara_toda_la_informacion_solicitada(CompraAutoStepDefinitions.java:37)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
