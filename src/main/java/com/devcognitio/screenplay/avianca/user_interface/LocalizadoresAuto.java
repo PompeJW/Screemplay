@@ -1,7 +1,6 @@
 package com.devcognitio.screenplay.avianca.user_interface;
 
 import net.serenitybdd.screenplay.targets.Target;
-import org.apache.poi.ss.formula.functions.T;
 
 public class LocalizadoresAuto {
     public static final Target DESKTOPS = Target.the("localizadr de la lista desplegable de desktops")

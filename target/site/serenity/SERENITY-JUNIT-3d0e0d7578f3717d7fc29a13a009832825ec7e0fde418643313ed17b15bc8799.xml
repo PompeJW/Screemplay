@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="realizar la automatizacion de ingreso a youtube y buscar opciones de practica" skipped="0" tests="1" time="3.25" timestamp="2023-01-12 05:02:21"><testcase name="ya que me encuentro en la pagina deseo encontrar un video en especifico"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889)&#13;
+com.devcognitio.screenplay.avianca.features.step_definitions.AutomatizacionYoutubeStepDefinitions.que_ya_pude_ingresar_a_la_pagina_de_https_www_youtube_com(AutomatizacionYoutubeStepDefinitions.java:18)&#13;
+✽.que ya pude ingresar a la pagina de  https://www.youtube.com(file:///C:/Workspace/practica_screen_play/serenity-cucumber-gradle-screenplay/src/test/resources/features/consulta_de_tiquetes/automatizacion_youtube.feature:5)&#13;
+</system-err></testcase></testsuite>

@@ -4,9 +4,9 @@ import com.devcognitio.screenplay.avianca.tasks.ClickElement;
 import com.devcognitio.screenplay.avianca.tasks.DarLikeYouTube;
 import com.devcognitio.screenplay.avianca.tasks.EnterText;
 import com.devcognitio.screenplay.avianca.user_interface.Youtube;
-import cucumber.api.java.es.Cuando;
-import cucumber.api.java.es.Dado;
-import cucumber.api.java.es.Entonces;
+import io.cucumber.java.es.Cuando;
+import io.cucumber.java.es.Dado;
+import io.cucumber.java.es.Entonces;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 

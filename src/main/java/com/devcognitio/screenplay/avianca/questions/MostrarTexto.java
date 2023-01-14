@@ -17,7 +17,8 @@ public class MostrarTexto implements Question <String> {
     @Override
     public String answeredBy(Actor actor) {
         WaitUntil.the(target, WebElementStateMatchers.isVisible());
-        return Text.of(target).viewedBy(actor).asString();
+        return Text.of(target).answeredBy(actor).toString();
+                //.viewedBy(actor).asString();
     }
     public static MostrarTexto with(Target target){
         return new MostrarTexto(target);

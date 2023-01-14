@@ -4,12 +4,9 @@ import com.devcognitio.screenplay.avianca.events.EnUnFrame;
 import com.devcognitio.screenplay.avianca.model.busqueda.BuscarVuelos;
 import com.devcognitio.screenplay.avianca.model.busqueda.FechaDeSalida;
 import com.devcognitio.screenplay.avianca.tasks.Navegar;
-import cucumber.api.java.Before;
-import cucumber.api.java.es.Cuando;
-import cucumber.api.java.es.Dado;
-import cucumber.api.java.es.Entonces;
-import net.serenitybdd.screenplay.actors.OnStage;
-import net.serenitybdd.screenplay.actors.OnlineCast;
+import io.cucumber.java.es.Cuando;
+import io.cucumber.java.es.Dado;
+import io.cucumber.java.es.Entonces;
 
 import java.util.List;
 

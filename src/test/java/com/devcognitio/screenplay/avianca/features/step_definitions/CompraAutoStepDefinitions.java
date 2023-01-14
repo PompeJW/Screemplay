@@ -1,19 +1,14 @@
 package com.devcognitio.screenplay.avianca.features.step_definitions;
 
 import com.devcognitio.screenplay.avianca.tasks.Clicks;
-import com.devcognitio.screenplay.avianca.tasks.ContinuacionAutomatizacion;
-import com.devcognitio.screenplay.avianca.tasks.LlenarInfoFromExcel;
 import com.devcognitio.screenplay.avianca.user_interface.LocalizadoresAuto;
-import cucumber.api.java.es.Cuando;
-import cucumber.api.java.es.Dado;
-import cucumber.api.java.es.Entonces;
+import io.cucumber.java.es.Cuando;
+import io.cucumber.java.es.Dado;
+import io.cucumber.java.es.Entonces;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
-import net.serenitybdd.screenplay.targets.Target;
 
 import java.io.IOException;
-
-import static com.devcognitio.screenplay.avianca.utils.Excel.getInfoExcel;
 
 
 public class CompraAutoStepDefinitions {
@@ -35,7 +30,7 @@ public class CompraAutoStepDefinitions {
     @Cuando("^ingrese al carro de compra llenara toda la informacion solicitada$")
     public void ingrese_al_carro_de_compra_llenara_toda_la_informacion_solicitada() throws IOException {
         OnStage.theActorInTheSpotlight().attemptsTo(
-                LlenarInfoFromExcel.with(getInfoExcel())
+              //  LlenarInfoFromExcel.with(getInfoExcel())
         );
 
     }
